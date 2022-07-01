@@ -1,0 +1,526 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* navbar */
+
+.nav-logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white!important;
+}
+
+.nav-menu{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white!important;
+}
+
+/* Background page 1*/
+
+.page-1{
+    background-image: url(/assets/main-bg.jpg);
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 950px;
+}
+
+/* main to call action 1 */
+
+.main-1{
+    text-align: center;
+    position: relative;
+    height: 80vh;
+}
+
+.main-h1-1{
+    color: white;
+    
+}
+
+.main-h2-1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.btn-page1{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.main-2{
+    text-align: center;
+    position: relative;
+    height: 25vh;
+}
+
+.story {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Background page 2*/
+
+.page-2{
+    background-image: url(/assets/the-games-bg.jpg);
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 950px;
+}
+
+/* about + gallery */
+
+.special{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-left: 165px;
+}
+
+.game{
+    color: white;
+    font-size: 75px;
+}
+
+.about-gal{
+    position: relative;
+    top: 300px;
+}
+
+/* background page 3 */
+
+.page-3{
+    background-image: url(/assets/features.jpg);
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 950px;
+}
+
+/* main content page 3 */
+
+.what-special{
+    color: white;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 150px;
+}
+
+.features{
+    color: white;
+    font-size: 80px;
+}
+
+.white-circle{
+    margin-top: 70px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.feature-1{
+    margin-top: 55px;
+    color: #FFB548;
+    font: arial;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.exp-feature-1{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.feature-2{
+    position: relative;
+    top: 60px;
+    font: arial;
+    font-size: 30px;
+    color: #FFB548;
+    text-transform: uppercase;
+}
+
+.white-outer-circle{
+    margin-top: -1px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.vertical-line{
+    position: relative;
+    margin-left: 9px;
+    width: 2px;
+    background-color: white;
+    height: 158px;
+}
+
+.feature-3{
+    margin-top: 100px;
+    font: arial;
+    font-size: 30px;
+    color: #FFB548;
+    text-transform: uppercase;
+}
+
+.white-outer-circle-2{
+    margin-top: 66px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/* background page 4 */
+
+.page-4{
+    background-image: url('/assets/Rectangle-systemreq.png'), url('/assets/requirements.jpg');
+    background-size: 100% 100%;
+    color: #FFF;
+    height: 880px;
+}
+
+/* main content page 4 */
+
+.question{
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.sysreq{
+    margin-top: 180px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;    
+}
+
+.table-bordered{
+    position: relative;
+    top: 25px;
+}
+
+.table-heading{
+    color: #FFB548;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.description{
+    position: relative;
+    top: 10px;
+}
+
+/* background page 5 */
+
+.page-5{
+  background-image: url('/assets/top-score-bg.png'), url('/assets/black-paper.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 880px;
+  padding: 130px;
+}
+
+/* main content page 5 */
+
+.top-scores{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 450px;
+    align-items: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.desc-of-text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 180px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn-page5{
+    text-transform: uppercase;
+    position: relative;
+    bottom: 190px;
+    font-weight: bold;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.card-data {
+    position: relative;
+    right: -80px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    height: 550px;
+}
+  
+.card-col {
+    position: absolute;
+    right: -115px;
+    width: 800px;
+}
+  
+.card-2 {
+    position: relative;
+    margin-left: -100px;
+    width: 100%;
+    height: auto;
+}
+  
+.isi-card {
+    background-color: rgba(255, 255, 255, 0.08)!important;
+}
+  
+.isi-card .picture {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    box-shadow: 5px 1px#FFB548;
+}
+  
+.isi-card .twitter-logo {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+  
+.name {
+    margin: 0px;
+    position: relative;
+    left: 20px;
+}
+  
+.name .orange-name {
+    color: #FFB548;
+    margin-bottom: -12px;
+    font-size: 24px;
+}
+  
+.name .work-place {
+    /* position: relative; */
+    color: white;
+    font-size: 18px;
+    opacity: 0.5;
+}
+  
+.clear {
+    clear: both;
+}
+  
+.card-text {
+  font-weight: normal;
+  color:white;
+  font-size: 16px;
+}
+  
+.card-footer {
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+/* background page 6 */
+
+.subscribe-footer {
+    background-color: black;
+    height: 830px;
+}
+  
+.container-subs {
+    margin-top: -1px;
+}
+  
+.subscribe-footer .col1 {
+    background-image: url('/assets/image.png');
+    width: 445px;
+    height: 694px;
+    background-repeat: no-repeat;
+    background-size: cover 50%;
+}
+  
+.subscribe-footer .col2 {
+    position: relative;
+    left: -100px;
+    top: -90px;
+    color: white;
+    width: 445px;
+}
+  
+.subscribe-footer .col2 h3 {
+    width: 190px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+  
+.subscribe-footer .col2 h1 {
+    width: 190px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+}
+  
+.subscribe-footer .col2 p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+  
+.subscribe-footer .form {
+    margin-right: 20px;
+}
+  
+  
+.subscribe-footer .form label {
+    position: absolute;
+    left: 32px;
+    top: 308px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+  
+.subscribe-footer .form input {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+}
+
+.btn-page6{
+    position: relative;
+    right: 95px;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+::placeholder {
+    margin-top: 2px;
+    color: #FFB548;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+  
+  
+  .subscribe-footer .form button {
+    margin-right: -20px;
+}
+  
+  
+  .col-menu1, .col-menu2 {
+    margin-bottom: 20px;
+}
+  
+  .col-menu1 {
+    position: relative;
+    top: 7px;
+    left: 160px;
+}
+  
+  .col-menu1 ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+  
+  .col-menu1 ul li {
+    list-style-type: none;
+    margin-left: 40px;
+}
+  
+  .col-menu2 img {
+    display: inline-block;
+    margin-left: 50px;
+}
+  
+  hr {
+    color: white;
+}
+  
+  .col-last1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+  
+  .col-last2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+

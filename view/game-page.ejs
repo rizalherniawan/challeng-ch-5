@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Chapter 4</title>
+    <!-- CSS linkage -->
+    <link rel="stylesheet" href="/css/game-page.css">
+    <!-- Import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="main-screen background">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col header d-flex justify-content-start mt-4">
+                        <a href="/loggedin"><div class="isi-header-1"><img src="./assets/Panah.png"></div></a>
+                        <div class="isi-header-2"><img class='gambar-header-1' src="./assets/logo 1.png"></div>
+                        <div class="isi-header-3">rock paper scissors</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row content-1">
+                    <div class="col-4 col1">
+                        <div class="row">
+                            <div class="col">
+                                <div class="player-1">player 1</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="rock-paper-scissor1"><img class="rock pict1" src="./assets/batu 1.png" onclick="choice('rock')"> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="rock-paper-scissor1"><img class="paper pict1" src="./assets/kertas 1.png" onclick="choice('paper')"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="rock-paper-scissor1"><img class="scissor pict1" src="./assets/gunting 1.png" onclick="choice('scissor')"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col">
+                                <div class="vs">vs</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img class="refresh-btn" onclick="refresh()" src="./assets/refresh 2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col2">
+                        <div class="row">
+                            <div class="col">
+                                <div class="computer">com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="rock-paper-scissor-2"><img class="rock2 pict2" src="./assets/batu 1.png"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="rock-paper-scissor-2"><img class="paper2 pict2" src="./assets/kertas 1.png"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="rock-paper-scissor-2"><img class="scissor2 pict2" src="./assets/gunting 1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="javascript/game-page.js"></script>
+</body>
+</html>
